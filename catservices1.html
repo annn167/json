@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href=catservices.css">
+<link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="catservices.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=" https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .collapsib {
+  background-color:yellowgreen;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.activ, .collapsib:hover {
+  background-color: #555;
+}
+
+.collapsib:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.cont{
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+
+    
+</head> 
+<body>
+
+<div class="sidebar">
+  <a class="active" href="index.html">Blog</a>
+  <a href="#news">News</a> 
+  <a href="catcontact.html">Contact Us </a>
+  
+</div>
+
+<div class="content">
+  <h2>CAT SERVICES</h2>
+  <h3> CAT GROOMING TIPS</h3>
+  <p>Start grooming early to get your cat used to it</p>
+ 
+
+<p>A clean cat is a happy cat, and we're here to help! From nail trims to bathing,<br/> a little maintenance goes a long way.
+     Read on to find out how to keep your kitty’s eyes,<br/> ears, teeth, skin and fur healthy and clean. Please note: There are some cats who <br/>
+     do not tolerate being groomed. If your cat fights the grooming process, 
+    and there is some<br/> potential that injury could occur to your cat or yourself, please make an appointment with a professional groomer or
+     a veterinarian to have your cat groomed. </p>
+     <h2>  click on the grid  images below to know more about cat health care and skincare and furcare</h2>
+
+
+<!-- Three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background: url(https://www.aspca.org/sites/default/files/cat-care_cat-grooming_body1-right.jpg);">
+    Cat health care
+  </div>
+  <div class="column3" onclick="openTab('b2');" >
+    skin care and fur care</div>
+
+  <div class="column4" onclick="openTab('b3');">
+
+
+    
+  </div>
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab"
+ style="display:none;background:url(https://th.bing.com/th/id/R.9ec510054b7eea8303c474eddf997985?rik=Ik2LAgvS3PFHRw&riu=http%3a%2f%2fcatcareofvinings.com%2fblog%2fwp-content%2fuploads%2f2017%2f02%2fiStock-92020058-1800x1146.jpg&ehk=9L9Qdew%2bv31GrXvz3I7ZkxfvdKRHXFa1E3N0oiPqUpA%3d&risl=&pid=ImgRaw&r=0)">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>DENTAL, EAR AND EYE CARE</h2>
+   <h2> EYE CARE</h2>
+  <p>A good home eye exam just before grooming can clue you into any tearing, crust, cloudiness or inflammation that may indicate a health problem. Here are few simple tips to keep your kitty’s eyes bright and healthy.
+
+    Expand to read more
+    Face your cat in a brightly lit area and look her in the eyes. They should be clear and bright, and<br/> 
+    the area around the eyeball should be white. Her pupils should be equal in size.<br/>
+    Roll down your kitty’s eyelid gently with your thumb and <br/>take a look at the lid’s lining. It should be pink, not red or white.
+    Wipe away any crusty gunk from your cat’s eyes with a damp cotton ball. Always wipe<br/>
+     away from the corner of the eye, and use a fresh cotton ball for each eye. Snip away any long hairs that could be blocking 
+    her vision or poking her eyes. <br/>Try not to use eye washes or eye drops unless they’ve been prescribed by your vet.</p><br/>
+    <h2> EAR CARE</h2>
+    <p>Your cat’s ears may be able to pick up the sound of 
+      a bag of treats being opened across the house, but they could still use a little help staying clean. Monitoring your kitty’s ears once per week for wax, debris and infection will help those sensitive sonar detectors stay perky and alert to your every move.
+
+      Expand to read more
+      <h3>Outer Ear Check</h3>
+      
+      A healthy feline ear flap, or pinna, 
+      has a layer of hair on its outer surface with no bald spots, and its inner <br/>
+      surface is clean and light pink. If you see any discharge, redness or swelling, your cat’s ears<br/>
+       should be checked by a veterinarian.
+      
+      <h3>Inner Ear Exam</h3>
+      
+      Bring kitty into a quiet room where there are no<br/>
+       other pets. Gently fold back each ear and look down into the canal. Healthy inner<br/> 
+       
+       ears will be pale pink in color, carry no debris or odor and will<br/>
+        have minimal if no earwax. 
+       If you find that your cat’s ears are caked with wax or you detect an odor,<br/>
+        please bring her in for a veterinary exam.<a href="https://www.aspca.org/sites/default/files/cat-care_cat-grooming_paw-nail-care_body3-right.jpg"> Ear Cleaning 101</a>
+      
+     </p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:gray">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  
+  
+  <h2>Bathing your cat</h2>
+  <p>
+   With her built-in grooming tools (tongue and teeth), your fastidious feline is well-equipped to <br/>tackle her 
+    own hair care needs. But if she is very<br/> dirty or gets into something sticky or smelly, 
+    you may need to give her a bath. Follow these steps to<br/> ensure minimal stress and maximum efficiency.<br>Schedule baths when your cat is at her most mellow. A play session with a cat dancer or other toy of choice can help tire out even the friskiest of felines.f
+    For  your own protection, we recommend trimming Fluffy’s claws before bathing<br/>.
+    Give your cat a good brushing to remove any loose hair and mats.
+    Gently place some cotton in her ears to keep the water out.
+    Place a rubber bath mat in the sink or tub where you’ll be bathing your kitty so she doesn’t slip.<br/> Fill with three to four inches of lukewarm (not hot, please!) water.
+    Use a hand-held spray hose to thoroughly wet your pet, taking care not to spray directly in her ears, eyes and nose. If you don’t have a spray hose, a plastic pitcher or unbreakable cup works great.
+    Gently massage your pet with a solution of one part cat shampoo (human shampoo can dry out her skin) to five parts water, working from head to tail, in the direction of hair growth. Take care to avoid the face, ears and eyes.
+    Thoroughly rinse the shampoo off your cat with a spray hose or pitcher; again, be sure the water is lukewarm. <br/>
+    Take good care that all residue has been removed, as it can irritate the skin and act as a magnet for dirt.<br/>
+    
+  </p>
+  <h2>Brushing Your Cat </h2>
+  <p> Brushing your cat not only removes dirt, grease and dead hair from her coat, but it helps 
+    to remove skin flakes and stimulates blood<br/> circulation, improving the overall condition of her skin. <br/>
+    One or two brushings per week will help kitty to keep her healthy glow—and you’ll find that regular
+    <br/> sessions are especially beneficial when your cat ages and is no longer 
+    able to groom so meticulously on her own.
+    <a href="https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiir-2bsYGDAxXRFjQIHbL5AygQFnoECC4QAQ&url=https%3A%2F%2Fwww.aspca.org%2Fpet-care%2Fcat-care%2Fcat-grooming-tips&usg=AOvVaw0icKDGgt7mIRO1gQPvNBR6&opi=89978449"> click here to read more</a>
+    
+    <br/></p>
+
+  </div>
+  
+  <p>PET HOTEL</p>
+<button class="collapsib">PET HOTEL WHILES YOU ARE AWAY ON A TRIP</button>
+<div class="cont">
+  <p>If you’re short on time, here’s a quick answer: Pet hotels offer temporary boarding and <br/>
+    care services for dogs, cats, and other pets. This includes amenities like private rooms, <br/>
+    play areas, and webcams. Pet hotels also provide basic care like feeding, walks, playtime, and grooming.
+     <img src="https://th.bing.com/th/id/OIP.iEZUK21grd0F2uKUPDWDxgHaC7?w=407&h=138&c=7&r=0&o=5&pid=1.7" width="300" height="200"> <br/>
+     <img src="https://th.bing.com/th/id/OIP.e82O3J8QOKG2rxqFiOfuggHaE8?w=254&h=180&c=7&r=0&o=5&pid=1.7"alt="cat" width="300" height="200"> <br/> 
+    </p>
+</div>
+ 
+
+<p>PET DAY CAMP</p>
+<button class="collapsib">socializing activities</button>
+<div class="cont">
+  <p>Take your cat along on your next camping venture & embrace the true feeling of freedom together<br/>. 
+    If you've never been camping with your cat before, start out by visiting a camp <br/>
+     <img src="https://th.bing.com/th/id/OIP.fLMBMysXGw4EVz9swX0X-QHaFj?w=199&h=180&c=7&r=0&o=5&pid=1.7"alt="cat camping" width="300" height="200"></p>
+</div>
+<button class="collapsib">PETS DAY CAMP TRAINING SESSIONS</button>
+<div class="cont">
+  <p> <img src="https://th.bing.com/th/id/OIP.pNFajKdcfTh-75HNf_zccwHaE8?w=313&h=180&c=7&r=0&o=5&pid=1.7"alt="cat camping" width="300" height="200">
+      </p>
+</div>
+<button class="collapsib">OUTDOOR PLAY AREA</button>
+<div class="cont">
+  <p><img src="https://th.bing.com/th/id/OIP.OO1_8_ddJgIg2YOObKYaMgHaHx?w=174&h=183&c=7&r=0&o=5&pid=1.7"alt="cat camping" width="300" height="200">
+    Our Day Camper’s spend their time not only socializing with other dog friends, but working mind and body<br/>
+     through a wide variety of activities including; pack walks, hiking, <br/>
+     treadmill training, enrichment games, and polishing their training skills and good manners.<br/> 
+     <img src="https://thatsmydog.com/wordpress/wp-content/uploads/2020/06/Jess-Dog-Day-Camp-Thats-My-Dog-543x407.jpeg"alt="cat camping" width="300" height="200">
+    </p>
+</div>
+
+  
+  
+<script>
+  var coll = document.getElementsByClassName("collapsib");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var cont = this.nextElementSibling;
+    if (cont.style.maxHeight){
+      cont.style.maxHeight = null;
+    } else {
+      cont.style.maxHeight = cont.scrollHeight + "px";
+    } 
+  })}
+ 
+
+    function openTab(tabName) {
+      var i, x;
+      x = document.getElementsByClassName("containerTab");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      document.getElementById(tabName).style.display = "block";
+    }
+
+
+ 
+
+
+
+// Grid View
+function gridView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "50%";
+  }
+}
+
+/* Optional: Add active class to the current button (highlight it) */
+var container = document.getElementById("btnContainer");
+var btns = container.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+
+ 
+}
+
+    </script>
+</body>
+</html>
